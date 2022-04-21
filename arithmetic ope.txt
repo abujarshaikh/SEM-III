@@ -1,0 +1,46 @@
+//arithmetic operation using function
+#include<stdio.h>
+void star()
+{
+for(int x=0;x<=22;x++)
+printf("-");
+}
+void div()
+{
+int x,y=8,z=4;
+x=y/z;
+printf("\nDivision=%d",x);
+printf("\n");
+}
+void mul()
+{
+int x,y=8,z=4;
+x=y*z;
+printf("\nmultiplication=%d",x);
+printf("\n");
+}
+void sub()
+{
+int x,y=8,z=4;
+x=y-z;
+printf("\nsubtraction=%d",x);
+printf("\n");
+}
+void add()
+{
+int x,y=8,z=4;
+x=y+z;
+printf("addition=%d",x);
+printf("\n");
+}
+void main()
+{
+add();
+star();
+sub();
+star();
+mul();
+star();
+div();
+star();
+}
