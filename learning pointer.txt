@@ -1,0 +1,14 @@
+#include  <stdio.h>
+
+
+int main()
+{
+int a=76;
+int*ptra=&a;
+  printf("Hello, Abujar Shaikh\n");
+printf("The adress of pointer to a is = %x\n",&ptra);
+printf("The value of a is = %x\n",*ptra);
+printf("The value of a is = %d",a);
+  return 0;
+}
+    
