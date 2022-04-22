@@ -1,0 +1,23 @@
+//factorial of a given number 
+#include<stdio.h>
+int main()
+{
+int n,i;
+unsigned long long fact=1;
+printf("------------------------\n");
+printf("Enter an integer:");
+scanf("%d",&n);
+if (n<0)
+printf("Errorâ•\nFactorial of a negative number doesn't exist");
+else
+{
+for(i=1;i<=n;i++)
+{
+fact*=i;
+}
+printf("------------------------\n");
+printf("factorial of %d = %llu\n",n,fact);
+printf("------------------------\n");
+}
+return 0;
+}
