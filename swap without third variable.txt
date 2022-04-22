@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+
+{
+
+int a=10,b=20;
+
+printf("Original:-\na=%d\nb=%d\n",a,b);
+
+
+a=a+b;
+
+b=a-b;
+
+a=a-b;
+
+printf("After swap\na=%d,b=%d",a,b);
+
+printf("\nThank you;");
+return 0;
+
+}
