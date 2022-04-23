@@ -1,0 +1,11 @@
+//call_by_value(multiplication)
+#include<stdio.h>
+void multi(int y,int z)
+{
+int x=z*y;
+printf("x=%d",x);
+}
+int main()
+{
+multi(10,30);
+}
