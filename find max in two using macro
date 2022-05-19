@@ -1,4 +1,5 @@
 /* slip no.1*/
+//max number in two using macro function
 #include<stdio.h>
 #define Max(x,y) ((x>y)?x:y)
 int main()
