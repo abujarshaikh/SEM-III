@@ -1,3 +1,4 @@
+/* slip no.1*/
 #include<stdio.h>
 #define Max(x,y) ((x>y)?x:y)
 int main()
