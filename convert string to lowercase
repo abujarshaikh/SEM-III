@@ -1,0 +1,11 @@
+//slip no 12
+//que no 1
+// convert string to lowercase 
+#include<stdio.h>  
+  
+int main() {
+char *string = "Pritesh Taral";
+printf("\nString before to strlwr : %s", string.
+strlwr(string);
+printf("\nString after strlwr : %s", string);
+return (0)}
