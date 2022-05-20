@@ -1,18 +1,22 @@
 //slip no.5,7 and 15
 //que.1
 //swaping using pointer
-#include <stdio.h>
-int main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
-   int x, y, *a, *b, temp;
-   printf("Enter the value of x and y\n");
-   scanf("%d%d", &x, &y);
-   printf("Before Swapping\nx = %d\ny = %d\n", x, y);
-   a = &x;
-   b = &y;
-   temp = *b;
-   *b = *a;
-   *a = temp;
-   printf("After Swapping\nx = %d\ny = %d\n", x, y);
-   return 0;
+int a,b,*x,*y, temp;
+ 
+printf("Enter a and b:");
+scanf("%d%d",&a,&b);
+printf("Before te swapnig\nThe value of a=%d\nThe value of b=%d\n",a,b);
+x=&a;
+y=&b;
+temp=*y;
+*y=*x;
+*x=temp;
+printf("\n\nAfter the swapnig\nThe value of a=%d\nThe value of b=%d",*x,*y);
+/*sum=*ptr_a+*ptr_b; 
+printf("\nSum = %d",sum);*/
+getch();
 }
