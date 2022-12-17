@@ -1,7 +1,7 @@
 // linear search
 #include <stdio.h>
 #include<conio.h>
-/*int linear_search(int a[], int, int);
+int linear_search(int a[], int, int);
 int main()
 {
     int a[100], n, i, k, position;
@@ -22,7 +22,7 @@ int main()
         printf("%d is present in array at loction %d\n", k, position + 1);
     }
 
-    /*printf("Result is %d at index %d\n",k,position);
+    /*printf("Result is %d at index %d\n",k,position);*/
     return 0;
 }
 int linear_search(int a[], int n, int k)
@@ -36,7 +36,7 @@ int linear_search(int a[], int n, int k)
         }
     }
     return -1;
-}*/
+}
 // binary search
 int main()
 {
